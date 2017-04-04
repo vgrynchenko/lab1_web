@@ -1,0 +1,49 @@
+.container {
+    margin: 0 auto;
+    width: 1 px;
+}
+#header {
+
+    padding: 100 px 0;
+    border: solid 1px grey;
+    border-radius: 10px;
+    background: linear-gradient(to top, #20B2AA, #7FFFD4, #AFEEEE, white);
+    font-family: 'Zapf Chancery', cursive;
+}
+#header h1 {
+    color: #00008B;
+    text-align: center;
+
+}
+.table
+{
+    margin-top: 10px;
+    font-family: 'Zapf Chancery', cursive;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #E6E6FA;
+}
+tr
+{
+    text-align: center;
+
+}
+body
+{
+	background-image: url('background_body.jpg');
+	background-position: 100% 100%;
+}
+#glavnaya a{
+    display: block; 
+    padding: 2px; 
+    margin: 1px; 
+    font-family: 'Zapf Chancery', cursive;
+    text-decoration: none;
+    color: #00008B;
+} 
+#glavnaya a:hover { 
+    border: 2px dotted blue; 
+    margin: 0; 
+    text-align: center;
+
+}

@@ -1,0 +1,90 @@
+.container {
+	margin: 0 auto;
+	width: 1 px;
+}
+#header {
+
+	padding: 100 px 0;
+	border: solid 1px grey;
+	border-radius: 10px;
+	background: linear-gradient(to top, #20B2AA, #7FFFD4, #AFEEEE, white);
+
+}
+#header h1 {
+	color: #00008B;
+	text-align: center;
+
+}
+ body {
+    font-family: 'Zapf Chancery', cursive;
+    margin: 0; 
+    background-image: url('background_body.jpg');
+    background-attachment:fixed;
+    background-position:left top;
+   }
+ h2 {
+    margin-top: 0;
+    text-align: left; 
+    text-decoration: underline;
+ }
+ h2.nazva{
+ 	text-align: center;
+ }
+   #menu { 
+    float: left; 
+    border: 1px solid #333; 
+    width: 200px; 
+    padding: 5px; 
+    margin: 10px 10px 20px 5px; 
+    background-color: #7FFFD4;
+    position: fixed;
+   }
+   #menu div {
+    padding: 2px; 
+
+
+   }
+   #menu a { 
+    display: block; 
+    padding: 2px; 
+    margin: 1px; 
+    font-family: 'Zapf Chancery', cursive;
+    text-decoration: none;
+    color: #00008B;
+
+  } 
+   #menu a:hover { 
+    background: #FFEBCD; 
+    border: 2px dotted blue; 
+    margin: 0; 
+
+   }
+   #content, #menu, #header{
+   	box-shadow: 0 0 10px rgba(0,0,0, 0.8); 
+    padding: 8px;
+    border-radius: 10px;
+   }
+   #content { 
+    height: 100%; 
+    margin: 10px 5px 20px 225px; 
+    padding: 5px; 
+    border: 1px solid #333; 
+    background-image: url('fon3.jpg');
+    background-attachment:fixed;
+    background-position:left top;
+    text-indent: 20px;
+    text-align: justify;
+   }
+   .line {
+    border-bottom: 1px groove #333; 
+   }
+   #foot { 
+    position: fixed; 
+    left: 0; bottom: 0; 
+    padding: 10px; 
+    background: linear-gradient(to top, #4682B4, #ADD8E6, white);
+    width: 100%;
+    font-family: 'Zapf Chancery', cursive;
+    text-align: center;
+
+   }
